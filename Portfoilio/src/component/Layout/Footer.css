@@ -1,5 +1,6 @@
 .footer{
     background-color: #020305;
+    margin-top: 70px; 
     color: #94a3b8;
     padding: 20px 40px;
     display: flex;
@@ -21,7 +22,7 @@
 }
 
 
-@media (max-width: 425px) {
+@media (max-width: 427px) {
     .footer{
         display: flex; 
         flex-direction: column;

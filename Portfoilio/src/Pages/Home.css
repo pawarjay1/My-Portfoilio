@@ -1,0 +1,158 @@
+.container {
+
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-start; */
+  /* overflow: hidden; */
+  justify-content: center;
+  /* center horizontally */
+  align-items: center;
+  /* center vertically */
+  height: auto;
+  width: auto;
+  /* full screen height for demo */
+  margin-top: 30px;
+  background-color: #070a13;
+  gap: 20px;
+  /* spacing between items (optional) */
+}
+
+.item {
+
+  padding: 20px 40px;
+  top: 10px;
+  font-size: 18px;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.profile img {
+  width: 130px;
+  /* set width */
+  height: 130px;
+
+  margin-left: 37%;
+  /* set height (same as width for circle) */
+  object-fit: cover;
+  /* ensures image fills the circle without distortion */
+  border-radius: 50%;
+  /* this makes it a circle! */
+  align-items: center;
+}
+
+.profile {
+  letter-spacing: 10;
+  line-height: 1.1;
+}
+
+h2 {
+  font-family: Arial, sans-serif;
+  color: #1e293b;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+h1 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 4.3rem;
+  line-height: 0.9;
+  font-family: Arial, sans-serif;
+  color: #94a3b8;
+
+}
+
+p {
+  margin-top: 0px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #475569;
+  margin-bottom: 40px;
+}
+
+.work_btn {
+  text-decoration: none;
+  background-color: rgb(121, 4, 121);
+  border-radius: 4px;
+  position: relative;
+  left: 41%;
+
+  color: #94a3b8;
+  padding: 10px;
+
+}
+
+.about {
+  margin: 50px;
+  margin-top: 10px;
+  display: flex;
+  overflow: hidden;
+}
+
+h3 {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #ababab;
+}
+
+.left-about {
+  /* background-color: red; */
+  height: 300px;
+  width: 600px;
+  margin-left: 20px; 
+}
+
+.right-about {
+  /* background-color: yellow; */
+  height: 200px;
+  width: 500px;
+}
+
+.right-about img {
+  height: 300px;
+  margin-left: 20%;
+  width: auto;
+}
+
+
+@media (max-width: 427px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  .about {
+    margin-top: 10px;
+    flex-direction: column;
+  }
+
+  .left-about{
+    width: 440px; 
+    margin-bottom: 30px;
+  }
+
+
+  .right-about img{
+    height: 200px;
+    margin-left: 23%;
+    margin-bottom: 10px; 
+  }
+
+}
+
+
+@media (max-width: 376px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .profile img {
+    margin-left: 30%;
+  }
+
+  .work_btn {
+    left: 37%;
+  }
+}
