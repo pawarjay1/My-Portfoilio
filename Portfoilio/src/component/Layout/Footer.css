@@ -1,0 +1,39 @@
+.footer{
+    background-color: #020305;
+    color: #94a3b8;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    display: flex; 
+}
+
+
+.logo-btn{
+    color: #94a3b8; 
+    font-size: 20px;
+    padding: 10px; 
+}
+
+.box{
+    font-size: 0.8rem; 
+}
+
+
+@media (max-width: 425px) {
+    .footer{
+        display: flex; 
+        flex-direction: column;
+    }
+
+    .box{
+        margin: 6px; 
+    }
+}
+
+@media (max-width: 371px){
+    .box{
+        font-size: 0.7rem;
+    }
+}

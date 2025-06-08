@@ -25,7 +25,12 @@ export const Header = () => {
                     <NavLink to="/Skills" className="nav-link" onClick={closeMenu}>Skills</NavLink>
                     <NavLink to="/Projects" className="nav-link" onClick={closeMenu}>Projects</NavLink>
                 </ul>
-                <ion-icon name="menu-outline" onClick={toggleMenu}></ion-icon>
+                
+                <span>
+                    <ion-icon name="menu-outline" onClick={toggleMenu} className="toggleBtn"></ion-icon>
+                </span>
+                    
+                
             </header>
         </>
     )
