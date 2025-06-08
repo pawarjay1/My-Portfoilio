@@ -1,0 +1,99 @@
+.skills-section {
+  padding: 40px;
+  background-color: #070a13;
+  text-align: center;
+}
+
+.skills-section h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.skills-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.skill-card a {
+  color: white;
+  text-decoration: none;
+  background-color: #070a13;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.skill-card {
+  background-color: #475569;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px 30px;
+  max-width: 250px;
+  flex: 1 1 200px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card h3 {
+  font-size: 24px;
+  color: #bdc3ca;
+  margin-bottom: 10px;
+}
+
+.skill-card p {
+  font-size: 16px;
+  color: #555;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.logo {
+  height: 80px;
+  width: auto;
+}
+
+
+
+.github_calendar_wrapper {
+  display: flex;
+  justify-content: center;
+  transform: scale(1);
+  /* adjust value for desired size */
+  transform-origin: top left;
+
+  width: 100%;
+  overflow-x: auto;
+  padding: 1rem;
+}
+
+.github-calendar-wrapper svg {
+  max-width: 100%;
+  height: auto;
+}
+
+
+@media (max-width: 427px) {
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .github-calendar-wrapper {
+    padding: 0.5rem;
+  }
+}
+
+
+
+
+@media (max-width: 427px) {
+  .github_calendar_wrapper {
+
+    justify-content: center;
+    /* transform: scale(0.5); */
+    width: auto; 
+  }
+}

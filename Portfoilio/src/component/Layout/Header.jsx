@@ -27,7 +27,7 @@ export const Header = () => {
                 </ul>
                 
                 <span>
-                    <ion-icon name="menu-outline" onClick={toggleMenu} className="toggleBtn"></ion-icon>
+                    <ion-icon name="menu-outline" onClick={toggleMenu} className="toggle"></ion-icon>
                 </span>
                     
                 

@@ -64,11 +64,11 @@ h1 {
 }
 
 p {
-  margin-top: 0px;
   text-align: center;
   font-family: Arial, sans-serif;
   color: #475569;
   margin-bottom: 40px;
+  
 }
 
 .work_btn {
@@ -77,10 +77,18 @@ p {
   border-radius: 4px;
   position: relative;
   left: 41%;
-
+  top: 5%; 
   color: #94a3b8;
   padding: 10px;
 
+}
+
+
+
+h3 {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #ababab;
 }
 
 .about {
@@ -90,26 +98,20 @@ p {
   overflow: hidden;
 }
 
-h3 {
-  text-align: center;
-  font-family: Arial, sans-serif;
-  color: #ababab;
-}
-
-.left-about {
+.left_about {
   /* background-color: red; */
   height: 300px;
   width: 600px;
   margin-left: 20px; 
 }
 
-.right-about {
+.right_about {
   /* background-color: yellow; */
   height: 200px;
   width: 500px;
 }
 
-.right-about img {
+.right_about img {
   height: 300px;
   margin-left: 20%;
   width: auto;
@@ -126,13 +128,13 @@ h3 {
     flex-direction: column;
   }
 
-  .left-about{
+  .left_about{
     width: 440px; 
     margin-bottom: 30px;
   }
 
 
-  .right-about img{
+  .right_about img{
     height: 200px;
     margin-left: 23%;
     margin-bottom: 10px; 
