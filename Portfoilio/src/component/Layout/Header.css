@@ -31,8 +31,8 @@ header {
     transition: color 0.3s ease;
 
     margin-left: 20px;
-    font-size: 1rem;
-    
+    font-size: 0.9rem;
+
 }
 
 .nav-link::after {
@@ -43,7 +43,7 @@ header {
     width: 0%;
     height: 1px;
     background-color: #94a3b8;
-    
+
     transition: width 0.3s ease;
 }
 
@@ -60,12 +60,26 @@ ion-icon {
 @media (max-width: 425px) {
 
     ion-icon {
-        font-size: 32px; 
-        display: block; 
-    }
-    .nav-link{
-        display: none;
+        font-size: 32px;
+        display: block;
     }
 
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #070a13;
+        width: 100%;
+        padding: 10px 0;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        z-index: 999;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .nav-links.show {
+        display: flex;
+    }
 
 }
