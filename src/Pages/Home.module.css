@@ -155,6 +155,19 @@ h3 {
   }
 
   .work_btn {
-    left: 37%;
+    left: 30%;
+  }
+
+  .left_about{
+    width: 280px; 
+    left: 200px;
+  }
+  .right_about{
+    margin-top: 100px;
+  }
+  .about{
+    display: flex;
+    justify-content: center; /* center horizontally */
+    align-items: center;
   }
 }

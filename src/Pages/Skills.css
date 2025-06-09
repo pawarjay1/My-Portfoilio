@@ -62,7 +62,6 @@
   display: flex;
   justify-content: center;
   transform: scale(1);
-  /* adjust value for desired size */
   transform-origin: top left;
 
   width: 100%;
@@ -75,25 +74,3 @@
   height: auto;
 }
 
-
-@media (max-width: 427px) {
-  .section-title {
-    font-size: 1.5rem;
-  }
-
-  .github-calendar-wrapper {
-    padding: 0.5rem;
-  }
-}
-
-
-
-
-@media (max-width: 427px) {
-  .github_calendar_wrapper {
-
-    justify-content: center;
-    /* transform: scale(0.5); */
-    width: auto; 
-  }
-}
