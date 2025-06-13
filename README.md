@@ -1,8 +1,3 @@
-# My-Portfoilio
-
-[pawar-jay-portfoilio.vercel.app](https://pawar-jay-portfoilio.vercel.app/)
-
-
 # 💼 Portfolio Website
 
 Welcome to my personal portfolio website! This site showcases my projects, skills, resume, and ways to connect with me. Built with a passion for clean design and performance, it's a reflection of my journey as a developer.
