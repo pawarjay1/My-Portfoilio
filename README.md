@@ -33,16 +33,26 @@ My-Portfolio/
 └── package.json
 ```
 
-# 👩‍💻 How to Run Locally
+## ⚙️ Installation & Setup Guide
 
-# Clone the repository
+Follow these steps to run the project locally:
+
+### 1. Clone the Repository
+
+```bash
 git clone https://github.com/pawarjay1/My-Portfoilio.git
-
-# Navigate to the project folder
 cd My-Portfolio
+```
+### 2. Install Dependencies
 
-# Install dependencies
+```bash
 npm install
+npm i react-router-dom
+```
+### 3. Start the Development Server
 
-# Start the development server
+```bash
 npm run dev
+```
+Then open your browser and go to:
+👉 http://localhost:5173
